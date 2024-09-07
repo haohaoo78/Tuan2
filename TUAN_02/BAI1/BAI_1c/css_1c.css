@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1300px;
+    height: 850px;
+    border: 1px solid pink;
+    margin: auto;
+}
+header{
+    width: 100%;
+    height: 70px;
+    line-height: 2;
+    font-size: 38px;
+    text-align: center;
+    color: rgb(172, 64, 82);
+    text-shadow: 10px 10px 3px pink;
+}
+/* chỉnh thẻ nav */
+nav{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(231,149,148);  
+    display: inline-table;
+}
+.menu{
+    float: left;
+    padding-left:200px ;
+}
+.menu li{
+    height: 35px;
+    width: 150px;
+    line-height: 2;
+    list-style-type: none;
+    float: left;
+    border-right: 2px solid blue;
+    text-align: center;
+}
+.menu li img {
+    height: 25px;
+    padding-left: 100px;
+}
+.menu li a {
+    text-decoration: none;
+    color: white ;
+    font-size: 16px;  
+}
+li:hover>a{
+    color: aquamarine;
+}
+li:hover{
+    background-color: blueviolet;
+}
+.p1{
+    margin-top: 19px;
+    margin-left:50px;
+}
+/* chỉnh content  */
+.menu_trai {
+    width: 15%;
+    height: 610px;
+    float: left;
+}
+.menu_trai .menu_doc{
+    padding: 0px;
+    margin:10px 0px;
+
+}
+.menu_doc li {
+    list-style-type: none; 
+    width: 180px;
+    background-color: rgb(231,149,148);
+    height: 25px;
+    border-radius: 15px 15px;
+    margin: 5px;
+    position: relative;
+    
+}
+.menu_doc li a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+li:hover>a{
+    color: aquamarine;
+}
+li:hover{
+    background-color: blueviolet;
+}
+.menu_trai img {
+    margin-top: 15px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 8px 8px 8px pink;
+}
+.ct1 {
+    width: 63%;
+    height: 610px;
+    float: left;
+
+}
+.H{
+    margin: 10px  auto;
+    height: 30px;
+    width: 420px;
+    background-color: rgb(231,149,148);
+    font-size: 25px;
+    letter-spacing: 20px;
+    color:RGB(166,67,80); 
+    padding-left: 20px;
+    margin-bottom: 0px; 
+}
+.noidung{
+    margin-top:  0px;
+    margin-bottom: 0px;
+}
+.a1{
+    font-weight: bold;
+    color: rgb(236, 146, 10); 
+}
+.ct1 a {
+    color: red;
+}
+
+.H1{
+    margin:  10px auto;
+    height: 30px;
+    width: 420px;
+    background-color: rgb(231,149,148);
+    font-size: 25px;
+    letter-spacing: 20px;
+    color:RGB(166,67,80); 
+    padding-left: 20px;
+}
+.in4 {
+    display: grid;
+    grid-template-columns: 380px 380px;
+    gap : 20px; /*Cách đều */
+    margin: 10px;
+   
+}
+.in4 input {
+    height: 35px;
+    padding-left: 10px;
+    
+}
+.tp{
+    height: 50px;
+}
+.tp input {
+    width: auto;
+    height: auto;
+}
+.in4 textarea {
+    padding-left: 10px;
+    width: 780px;
+    height: 60px;
+}
+.end input {
+    width: 60px;
+    height: 30px;
+    margin: 7px;
+}
+.ct2 {
+    width: 22%;
+    height: 540px;
+    background-color: black;
+    float: left;
+    margin: 10px auto;
+}
+h2{
+    color: white;
+}
+.ct2 img {
+    height: 130px;
+}
+.ct2 p{
+    padding: 0px 30px;
+    color: white;
+}
+.ct2 ul {
+    list-style-type: none;
+    padding: 0px 30px;
+}
+.ct2 ul li {
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+}
+.ct2 ul li .more-content {
+    display: none;
+    color: white;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.ct2 ul li:hover .more-content {
+    display: block;
+}
+footer{
+    float: left;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(231,149,148);
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    font-size: 20px;
+    font-style: italic;
+}
